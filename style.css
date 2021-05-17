@@ -17,7 +17,8 @@ ul li{
 	width: 10%;
 	height: 100%;
 	background: transparent;
-	box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 5px 0 5px rgba(0, 0, 0, 0.1),
+				inset 160px 0 5px rgba(0, 0, 0, 0.1);
 	animation: bholu 5s linear infinite;
 }
 @keyframes bholu{
@@ -32,6 +33,7 @@ ul li{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 98%;
 	font-size: 32px;
 	color: #0d6091;
 	text-transform: uppercase;
